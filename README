@@ -1,0 +1,3 @@
+socket library abstracting the C style code the OS provides.  WINDOWS ONLY
+
+TODO: add a check in socket library and maybe the test exe to verify the OS is compatible

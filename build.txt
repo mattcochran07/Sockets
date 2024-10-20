@@ -1,0 +1,9 @@
+to build the socket library
+
+g++ -shared -I./ sockets\Socket.cpp sockets\UdpSocket.cpp
+sockets\TcpSocketClient.cpp sockets\TcpSocketServer.cpp -lws2_32 -o
+libsocket.dll
+
+to build the test exe
+
+g++ -I./ -L./ -lsocket main.cpp argvToVector.cpp parseCommandLine.cpp -o go
